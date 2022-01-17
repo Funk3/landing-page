@@ -44,25 +44,26 @@ a:link, a:visited {
     justify-content: center;
     align-items: center;
     padding:100px;
+    gap:50px;
 }
 
 .leftitems {
     display:flex;
     flex-direction:column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: space-between;
-    flex: 0 2 100%;
+    
 }
 
 h1 {
     font-size: 48px;
     font-weight: bolder;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 p {
     font-size: 18px;
-    margin-bottom: 20;
+    margin:0;
 }
 
 .signup {
@@ -74,10 +75,11 @@ p {
     height: 40px;
     border-radius: 10px;
     border-style: none;
+    margin-top: 30px;
 }
 
 .herocityimage img[src="images/herocity.png"]{
     max-height: 20%;
     max-width: 500px;
-    flex: 1;
+    
 }
