@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: sans-serif, "roboto";
     background-color: #1f2937;
     color: #F9FAF8;
     display: flex;
@@ -87,7 +87,7 @@ p {
     background-color: #F9FAF8;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 #sectionheader {
@@ -100,4 +100,55 @@ p {
 
 .infoheader {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+} 
+
+.imageswithtext {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.mainsectionimages {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    outline: thick solid #3882F6;
+}
+
+.imagetext {
+    color: #1f2937;
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quotesection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 300px 150px 300px;
+}
+
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+    margin-bottom: 30px;
+}
+
+.quoteauthor {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    align-self: flex-end;
 }
